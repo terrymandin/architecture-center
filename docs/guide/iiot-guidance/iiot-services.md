@@ -36,7 +36,7 @@ You can continue to use Time Series Insights with the old pricing model (S1, S2)
 Alternatively, [Azure Data Explorer](https://docs.microsoft.com/azure/data-explorer/) or [Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) may be used as a time series database if you plan to develop a custom time series service.
 
 > [!NOTE]
-> When connecting Time Series Insights with IoT Hub or Event Hub, ensure you select an appropriate [Time Series ID](https://docs.microsoft.com/azure/time-series-insights/how-to-select-tsid). We recommend using a SCADA tag name field or OPC UA node id (for example, nsu=http://msft/boiler;i=#####) if possible, as these will map to leaf nodes in your [Time Series Model](https://docs.microsoft.com/azure/time-series-insights/concepts-model-overview).
+> When connecting Time Series Insights with IoT Hub or Event Hub, ensure you select an appropriate [Time Series ID](https://docs.microsoft.com/azure/time-series-insights/how-to-select-tsid). We recommend using a SCADA tag name field or OPC UA node id (for example, nsu=http://msft/boiler;i=#####) if possible, as these will map to leaf nodes in your [Time Series Model](https://docs.microsoft.com/azure/time-series-insights/concepts-model-overview). 
 
 The data in Time Series Insights is stored in your [Azure Blob Storage account](https://docs.microsoft.com/azure/time-series-insights/concepts-ingestion-overview#azure-storage) (bring your own storage account) in Parquet file format. It is your data after all!
 
