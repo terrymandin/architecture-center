@@ -20,7 +20,7 @@ The [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/azur
 
 ### Azure PaaS Services
 
-All Azure PaaS services have an ability to scale up and/or out. Some services will do this automatically (for example, IoT Hub, Azure Functions in a Consumption Plan) while others can be scaled manually.
+All Azure PaaS services have an ability to scale up and/or out. Some services will do this automatically (for example, IoT Hub, Azure Functions in a Consumption Plan) while others can be scaled manually. 
 
 As you test your IIoT analytics solution, we recommend that you:
 
