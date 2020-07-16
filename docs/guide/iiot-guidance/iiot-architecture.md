@@ -18,7 +18,7 @@ This article series shows a recommended architecture for an Industrial IoT (IIoT
 
 An IIoT analytics solution can be used to build a variety of applications that provide:
 
-- Asset monitoring
+- Asset monitoring 
 - Process dashboards
 - Overall equipment effectiveness (OEE)
 - Predictive maintenance
